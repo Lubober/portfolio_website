@@ -1,16 +1,21 @@
+import "./App.css";
+import React from "react";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
+import Navbar from "./pages/navbar";
+import { routes } from "./router/auto-routes";
 
-import './App.css'
-import AcademicWork from './pages/academic work.tsx'
-
-function App() {
+export default function App() {
+  const firstVisible = routes.find(r => !r.hidden)?.path ?? "/";
 
   return (
-    <>
-    <h1>Lubomir Zelinsky's Personal Website</h1>
-    <p>This is my app, inside it is :</p>
-    <AcademicWork/>
-    </>
-  )
+    <HashRouter>
+      <Navbar />
+      <Routes>
+        {routes.map(({ path, Component }) => (
+          <Route key={path} path={path} element={<Component />} />
+        ))}
+        <Route path="*" element={<Navigate to={firstVisible} replace />} />
+      </Routes>
+    </HashRouter>
+  );
 }
-
-export default App
