@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "lubomir-zelinsky-analytics.com",
+  "homepage": "https://lubomir-zelinsky-analytics.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
