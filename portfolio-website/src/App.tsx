@@ -1,5 +1,4 @@
 import "./App.css";
-import React from "react";
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./pages/navbar";
 import { routes } from "./router/auto-routes";
