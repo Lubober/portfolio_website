@@ -1,9 +1,9 @@
 {
   "name": "portfolio-website",
   "private": true,
+  "homepage": "https://lubomir-zelinsky-analytics.com",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://lubomir-zelinsky-analytics.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
