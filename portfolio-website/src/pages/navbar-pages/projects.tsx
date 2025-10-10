@@ -7,7 +7,7 @@ export const DASHES: Dash[] = [
   {
     slug: "uk-employment",
     title: "UK Employment rate",
-    src: "https://app.powerbi.com/view?r=eyJrIjoiOTJjNTMxYzItYWM2OC00NWVkLTk5OTktYmJmMDMwYTA2MDYwIiwidCI6IjM2YzZkMjBhLTVkMjktNGU3MS05ZTBkLWFkOTVhYTIxYzJlNSJ9",
+    src: "https://app.powerbi.com/view?r=eyJrIjoiZDMyOTljMDItZTJlZi00NzBmLTljZjgtOGU5ZWUxNmJlZjg4IiwidCI6IjM2YzZkMjBhLTVkMjktNGU3MS05ZTBkLWFkOTVhYTIxYzJlNSJ9",
   },
   // { slug: "another-dash", title: "Another Dashboard", src: "https://app.powerbi.com/view?r=..." },
 ];
