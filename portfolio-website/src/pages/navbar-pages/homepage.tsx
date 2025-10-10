@@ -9,5 +9,5 @@ export function NavIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 export default function Homepage() {
-  return <h2>Welcome to my homepage</h2>
+  return <h2>Website in the works, more on the way</h2>
 }
