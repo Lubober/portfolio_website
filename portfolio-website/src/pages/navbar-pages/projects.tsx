@@ -5,9 +5,10 @@ export type Dash = { slug: string; title: string; src: string };
 // 👇 Add your dashboards here
 export const DASHES: Dash[] = [
   {
-    slug: "uk-jobs",
-    title: "UK Jobs Distribution",
-    src: "https://app.powerbi.com/view?r=eyJrIjoiZDMyOTljMDItZTJlZi00NzBmLTljZjgtOGU5ZWUxNmJlZjg4IiwidCI6IjM2YzZkMjBhLTVkMjktNGU3MS05ZTBkLWFkOTVhYTIxYzJlNSJ9",
+    slug: "client-report",
+    title: "Anonymised Client Industry Report",
+    src: "https://app.powerbi.com/view?r=eyJrIjoiOGViOTVjZmYtMzMyZS00YzFlLWE4MDYtMTNmZGVhY2RkYzlkIiwidCI6IjM2YzZkMjBhLTVkMjktNGU3MS05ZTBkLWFkOTVhYTIxYzJlNSJ9",
+    
   },
   // { slug: "another-dash", title: "Another Dashboard", src: "https://app.powerbi.com/view?r=..." },
 ];
